@@ -1,4 +1,4 @@
-package com.study.product.entity;
+package com.study.product.vo;
 
 import lombok.Builder;
 import lombok.Data;
