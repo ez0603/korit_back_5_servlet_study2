@@ -28,9 +28,7 @@ public class SearchProductServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// Model		=>	데이터 객체(setAttribute, getAttribute)
-		// view			=>	HTML,
-		
+	
 		ResponseEntitiy.ofJson(response, 200, productService.searchProducts());
 //		System.out.println("요청이들어옴");
 //		
